@@ -1,0 +1,1221 @@
+#myApp {
+    clear:both;
+    overflow: hidden;
+}
+.profile {
+    max-width: 960px;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    margin:0 auto;
+}
+.bgpic {
+    background-image: url('../img/home_header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    display:block;
+}
+.bgpic2 {
+    background-image: url('../img/home_header2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:328px;
+    display:block;
+}
+.bgpic3 {
+    background-image: url('../img/home_header3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:328px;
+    display:block;
+}
+.khmoniker {
+    height:100%;
+    width:160px;
+    display: block;
+    background-image: url('../img/img_logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-left:1em;
+}
+.kh_compare {
+    width:500px;
+    height:200px;
+    display: block;
+    margin:120px auto 0 auto;
+    background-image: url('../img/icons/koneksa_compare_landscape_small.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.khWideMoniker {
+    width:100px!important;
+    background-color:rgb(153,5,86);
+}
+.kh_reverse_logo {
+    width:180px;
+    height:50px;
+    display: block;
+    background-image: url('../img/icons/img_logo_bottom.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.widecorplogo {
+    background-image:url('../img/icons/logo_koneksa_landscape_small.png')!important;
+    width:200px!important;
+    height:50px!important;
+    background-size: auto 50px!important;
+}
+.leftNav {
+    width:90px;
+    height:100%;
+    display: block;
+    position: fixed;
+    z-index:1010;
+    top:0px;
+}
+.leftNav .sideMenuItem {
+    width:90px;
+    height:90px;
+    padding-top:60px;
+    display: block;
+    text-transform: capitalize;
+    font-size:0.8em;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.action {
+    /*font-size:0.6em !important;*/
+    line-height: 45px;
+    padding:0 1em;
+    cursor: pointer;
+}
+.action i {
+    margin-right:0.5em;
+}
+.header {
+    width:100%;
+    height:60px;
+    position: relative;
+    display: block;
+    z-index:1;
+}
+.footer {
+    width:100%;
+    height:200px;
+    display: block;
+}
+.footer .caption {
+    width:50%;
+    display: block;
+}
+.footer .caption h5 {
+    display: block;
+    font-size:0.8em!important;
+    text-align: left;
+    position:relative;
+    font-weight: 300;
+    margin:0;
+}
+.footer .caption a {
+    font-size:0.8em!important;
+    text-align: left;
+    width:100%;
+    display: block;
+    font-weight: 300;
+    margin:0;
+}
+.nav {
+    line-height: 60px;
+    width:960px;
+    height:60px;
+    display: block;
+    margin: 0 auto;
+}
+.menu {
+    display: block;
+    height: 60px;
+    font-size:0.8em;
+    text-transform: uppercase;
+}
+.menuItem {
+    height:56px;
+    line-height: 56px!important;
+    text-transform: uppercase;
+    padding:0 1em;
+    border-top:4px solid #fff;
+}
+.menuItem:hover {
+    border-top:4px solid #00B1B5;
+    cursor: pointer;
+}
+.main {
+    width:100%;
+    min-height:700px;
+    height:auto!important;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.infoCaption {
+    width:960px;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:2em;
+    text-align: center;
+    position:relative;
+    top:75px;
+}
+.infoCaption h4 {
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:0.8em!important;
+    text-align: center;
+    position:relative;
+    font-weight: 300;
+}
+.infoCaption h5 {
+    margin:40px auto 0 auto;
+    display: block;
+    font-size:0.6em!important;
+    text-align: center;
+    position:relative;
+    font-weight: 300;
+}
+.infoPanel {
+    width:100%;
+    height:360px;
+    display: block;
+    padding:0;
+}
+.innerPanel {
+    width:960px;
+    padding:40px 0;
+    height:360px;
+    margin:0 auto;
+    display: block;
+}
+.innerPanel ul {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+.innerPanel ul li {
+    width:33%;
+    height:280px;
+    display: block;
+}
+.innerPanel .whatWeDo {
+    width:100%;
+    height:112px;
+}
+.innerPanel h4 {
+    font-size:1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+.innerPanel p {
+    width:90%;
+    height:auto;
+    margin:0 5%;
+    display: block;
+    text-align: justify;
+    font-weight: 300;
+    font-size:0.9em;
+    font-family:"Open Sans",Helvetica,Arial;
+}
+.innerPanel .caption {
+
+}
+.leftOffset {
+    padding-left:100px;
+}
+h2 {
+    margin-top:0;
+}
+.backgroundPanel {
+    margin:0 5%;
+    width:35%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+}
+.noSidePadding {
+    padding:2em 0!important;
+}
+.panel {
+    margin:2em 5%;
+    width:90%;
+    padding:2em;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+    opacity:0.95;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.panel .formSpacer {
+    padding:1em 2em;
+    height: auto!important;
+    overflow: hidden;
+}
+.threeQtr {
+    width:75%!important;
+    height: auto!important;
+    overflow: hidden;
+}
+.threeQtrBorder {
+    width:73!important%;
+    height: auto!important;
+    overflow: hidden;
+}
+.formSpacer input {
+    float:left;
+    margin:0!important;
+    border:1px solid #bebebe;
+    height:3em;
+}
+.fullInput {
+    width:100%!important;
+}
+.qtrInput {
+    width:18%!important;
+    margin-left:2%;
+}
+.fourthInput {
+    width:21%!important;
+    margin:0 2%;
+}
+.thirdInput {
+    width:31%!important;
+    margin-left:2% !important;
+}
+.twoThirdInput {
+    width:64%!important;
+    margin-left:2% !important;
+}
+.halfInput {
+    width:32%!important;
+}
+.nineCol {
+    width:90%!important;
+}
+.sevenCol {
+    width:11.5%!important;
+    margin-left:1%!important;
+}
+.oneCol {
+    width:10%!important;
+}
+.fullHalfInput {
+    width:50%!important;
+}
+.formSpacer select {
+    float:left;
+    margin:0!important;
+}
+.fullWidthPanel {
+    padding:1em 0 0 0!important;
+}
+.fullWidthPanel .action:hover {
+
+}
+.noPadding {
+    padding:0!important;
+}
+.pleft100 {
+    padding-left:100px !important;
+}
+.pright100 {
+    padding-right:100px!important;
+}
+.leftPanel {
+    width:43%;
+    margin: 2em 0  1em 5%;
+    float:left;
+}
+.rightPanel {
+    width:43%;
+    margin: 2em 5% 1em 0;
+    float:right;
+}
+.spacerPanel {
+    padding:1em 2em !important;
+}
+.panel label {
+    width:100%;
+    font-size:0.9em;
+    padding:0.5em 0;
+    display: block;
+    margin:0;
+}
+.fullWidthPanel label {
+    float:left;
+    line-height: 3em;
+    padding:0!important;
+}
+.backgroundPanel label {
+    padding:0.5em 1.2em!important;
+    line-height: 1.6em;
+}
+.backgroundPanel select {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto';
+    font-size:1em;
+    padding:0.5em 1.2em;
+    border:0;
+    border:1px solid #bebebe;
+    text-transform: capitalize;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+
+}
+.backgroundPanel .button {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto';
+    font-size:1em;
+    line-height: 2.6em;
+    height:2.6em!important;
+    cursor: pointer;
+    padding:0em 1.2em!important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+}
+.backgroundPanel a {
+    font-size:1em;
+    padding:0.2em 1.2em;
+    line-height: 3em;
+    text-transform: capitalize;
+}
+.panel select {
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto';
+    font-size:1em;
+    padding:0.5em 1.2em;
+    border:1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+}
+.subPanel {
+    max-width:40%!important;
+}
+.subPanelLeft {
+    float:left;
+}
+.subPanelRight {
+    float:right;
+}
+.offsetPanel {
+    position:relative;
+    z-index: 10;
+    top:50px;
+    opacity:0.97;
+}
+.modalPanel {
+    max-width:500px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+}
+.brand_header {
+    width:100%;
+    display: block;
+    height:100px;
+    background-image:url('../img/icons/logo_signup.png');
+    background-repeat:  no-repeat;
+    background-position: center center;
+}
+.panel h3 {
+    font-size:1.2em;
+    text-transform: capitalize;
+}
+.panel h4 {
+    margin:0;
+    padding:0;
+    width:100%;
+    margin-bottom:1em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size:1em;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.fullWidthPanel h4 {
+    margin:0;
+    padding:0 2em;
+    width:100%;
+    margin-bottom:1em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size:1em;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.panel h4 i {
+
+}
+.panel h5 {
+    margin:0;
+    padding:0;
+    width:100%;
+    margin-bottom:1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.panel h6 {
+    margin:0;
+    padding:0;
+    margin-bottom:0.5em;
+    font-weight: 200;
+    font-size:0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.boxShadow {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+}
+.boxShadow:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.45);
+}
+.smallPanel {
+    padding:1em 10%;
+    width:100%;
+    height:auto!important;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.button {
+    border:0;
+    border-radius: 0;
+    margin:1em 0 0.5em 0;
+    padding:0.5em 1em;
+    height:3em;
+    line-height: 2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.smallButton {
+    border:0;
+    border-radius: 0;
+    padding:0 1em;
+    height:2em;
+    line-height: 2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+label {
+    width:100%;
+    margin:1em 0 0.5em 0;
+    display: block;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+input {
+    border:0;
+    border-radius: 0;
+    margin:0.2em 0 1em 0;
+    padding:0.5em 1.2em;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto';
+    font-size:1em;
+}
+input[type=text] {
+    border:1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em !important;
+}
+input[type=date] {
+    border:1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em !important;
+}
+input[type=email] {
+    border:1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em;
+}
+input[type=password] {
+    border:1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em;
+}
+.linkButton {
+    border:0;
+    border-radius: 0;
+    margin:1em 0;
+    padding:0.5em 1.2em;
+    font-size:1em;
+    width:auto;
+    font-weight: normal;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+input[type="button"] {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 1.2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 1.2em;
+    width:auto;
+    font-size:1em;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.fullWidth {
+    width:100% !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    text-align: center !important;
+}
+input[type="checkbox"] {
+    border-radius: 0;
+    margin:0.8em 0 0.5em 0;
+    padding:0;
+    height:1.5em;
+    width:1.5em;
+    display: block;
+    line-height: 1.5em;
+}
+input[type="radio"] {
+    border-radius: 0;
+    margin:1.5em 0 0.5em 0;
+    padding:0;
+    height:1.5em;
+    width:1.5em;
+    display: block;
+    line-height: 1.5em;
+}
+/* summary metric */
+.fromTo {
+    display: inline-block;
+    margin-left:1em;
+}
+.programName {
+    text-transform: uppercase;
+    padding-bottom: 1em !important;
+}
+.panel .metrics {
+    width:50%;
+    overflow: hidden;
+    height:auto!important;
+    display: block;
+}
+.panel .fullWidthMetric {
+    width:100%;
+    min-height:50px;
+    overflow: hidden;
+    height:auto!important;
+    display: block;
+}
+.fullWidthMetric h5 {
+    line-height: 45px;
+    padding-left:60px;
+    font-size:1em;
+}
+.iconMetric {
+    width:100%;
+    height:1.5em;
+    margin-bottom:0.75em;
+    display: block;
+}
+.iconMetric .caption {
+    width:75%;
+    height:1.5em;
+    line-height: 1.5em;
+    font-size:0.8em;
+    display: block;
+}
+.iconMetric .value{
+    width:25%;
+    height:1.5em;
+    font-size:1.6em;
+    line-height: 1em;
+    display: block;
+}
+/**number metric**/
+.numberMetric {
+    width:25%;
+    padding:1em;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.numberMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    margin: 0 auto;
+}
+.numberMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.numberMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 700;
+    display: block;
+}
+.numberMetric .valueDate {
+
+}
+.numberMetric .valueLabel {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.panelCaption {
+
+}
+.surveyQuestion {
+    font-weight: 200;
+    font-size:0.9em;
+    width:80%;
+}
+.surveyCount {
+    font-weight: 200;
+    font-size:0.9em;
+    width:20%;
+}
+.surveyAnswer {
+    font-size:1em;
+    font-weight: 300;
+}
+/**program metric**/
+.programMetric {
+    width:20%;
+    padding:1em 0;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.programMetric h5 {
+    font-size:0.8em;
+}
+.programMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.programMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 500;
+    display: block;
+}
+.programMetric .value .split {
+    font-size:0.6em;
+    line-height: 2em;
+    padding:0 0.5em;
+}
+.programMetric .value a {
+    font-size:0.8em !important;
+}
+/** bar chart**/
+.chartContainer {
+    width:48%;
+    float:left;
+}
+.chartContainer h5 {
+    text-align: center;
+}
+/**bar icon panel**/
+.iconPanel {
+    width:80px;
+    height:auto!important;
+}
+.iconPanel .icon {
+    width:45px !important;
+    margin-left:15px;
+    margin-top:25px;
+}
+.iconPanel h6 {
+    font-size:0.8em;
+    margin-bottom:0;
+    text-align: center;
+}
+.iconUnits {
+    text-transform: none!important;
+}
+/**data count metric**/
+p .value {
+    font-size:2em!important;
+    line-height: 2em !important;
+    font-weight: 700 !important;
+}
+.dataCountMetric {
+    width:25%;
+    padding:1em;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.dataCountMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    margin: 0 auto;
+}
+.dataCountMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.dataCountMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 700;
+    display: block;
+}
+.iconBarMetric {
+    height:auto;
+    overflow: hidden;
+    width:100%;
+    display:block;
+}
+.iconBarMetric h5 {
+    line-height: 45px;
+    font-size:0.8em!important;
+}
+.iconBarMetric .barBlock {
+    width:100%;
+    margin-left:45px;
+    position: relative;
+    z-index: 1;
+}
+.iconBarMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.iconBarMetric .barMetric {
+    width: 100%;
+    height:18px;
+    line-height:18px;
+    display: block;
+}
+.iconBarMetric .caption {
+    font-size:0.8em;
+    display: block;
+}
+.iconBarMetric .value {
+    font-size:0.8em;
+    display: block;
+}
+.iconBarMetric .barOuter {
+    width: 86%;
+    height:10px;
+    display: block;
+    position: relative;
+}
+.iconBarMetric .barInner {
+    width: 40%;
+    height:10px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.iconBarMetric .barInnerCaption {
+    width: 100%;
+    padding-left:1em;
+    height:45px;
+    line-height: 45px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+/**program ui**/
+.dataType {
+    width:100%;
+    min-height:60px;
+    height:auto!important;
+    padding:1em;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+.dataType .description {
+    width:auto;
+    height:80px;
+    display: block;
+}
+.dataType h5 {
+    margin:0;
+    margin-bottom: 0.5em;
+}
+.dataType h6 {
+    margin:0;
+    text-transform: lowercase;
+}
+/**step icon**/
+.step_icon_spacer {
+    width:auto;
+    padding:0 0.2em;
+    height:44px;
+    display: block;
+    line-height: 44px;
+    font-size:1.8em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.step {
+    font-size:0.6em !important;
+    line-height: 45px;
+    padding:0 1em;
+    cursor: pointer;
+}
+.step_icon_border {
+    border-width: 2px;
+    border-style: solid;
+    line-height: 40px!important;
+}
+.step_icon {
+    width:auto;
+    padding:0 0.2em;
+    height:44px;
+    display: block;
+    -webkit-border-radius: 22px;
+    -moz-border-radius:22px;
+    border-radius:22px;
+    line-height: 44px;
+    font-size:2.4em;
+    text-align: center;
+}
+/**new survey**/
+.progName {
+    font-size:1em!important;
+    line-height: 1em!important;
+    width:75%!important;
+}
+.question {
+    width:75%!important;
+    height:auto!important;
+    overflow:hidden;
+}
+.questionText {
+    width:100% !important;
+}
+.question select {
+    margin:1em 0!important;
+}
+.questionSubForm {
+    width:75%;
+    display: block;
+}
+.isMandatory {
+    width:100%;
+    display: block;
+    height:3em;
+    padding:0.5em 0.5;
+}
+.toggleButton {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 2em;
+    height:3em;
+    line-height: 2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.leftToggle {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-left:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.rightToggle {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-right:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.smallLabel {
+    width:100% !important;
+    display: block;
+}
+.questionOptions {
+    display: block;
+    overflow: hidden;
+    width:100%;
+}
+.questionOption {
+    width:100%;
+}
+/**invites form**/
+.invitesForm {
+    padding:0 2em;
+    display: block;
+    height:auto!important;
+    overflow: hidden;
+    width:70%;
+}
+.invitesForm p {
+    font-size:1.2em;
+    line-height: 1.8em;
+    margin:0 0 0 2%;
+}
+.invitesCounter {
+    padding:0 0 0 2em;
+    display: block;
+    width:30%;
+    height:auto!important;
+    overflow: hidden;
+}
+.inviteCounterBlock {
+    width:160px;
+    height:160px;
+    display: block;
+    margin:0 auto;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+}
+.inviteCounterBlock .value {
+    width:100%;
+    font-size: 3em;
+    padding-top:30px;
+    display: block;
+    text-align: center;
+}
+.inviteCounterBlock .caption {
+    width:100%;
+    height:1em;
+    display: block;
+    text-align: center;
+    text-transform: uppercase
+}
+.participantQuit {
+    height:3em;
+    padding: 0.5em 1.2em;
+    display: block;
+    line-height: 2em;
+    text-align: center;
+}
+/**surveyStatus**/
+.participantTextAnswer {
+    width:100%;
+    display: block;
+    line-height: 1.4em;
+    font-size:0.8em;
+    padding:0.2em 0;
+}
+.participantStatus {
+    width:100%;
+    display: block;
+    line-height: 2em;
+    font-size:1em;
+}
+.participantStatus .fa{
+    font-size:1.4em;
+    padding-top:0.4em;
+}
+/**participant dashboard**/
+.row {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    line-height: 2em;
+    display: block;
+    font-size:1em;
+    padding:0.4em 0 0 0;
+}
+.rowHeader {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    line-height: 1.6em;
+    display: block;
+    font-size:1em;
+    padding:0.2em 0 0 0;
+}
+.rowDetail {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    display:block;
+}
+.rowIcon {
+    width:5% !important;
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 2em;
+    line-height: 2em;
+    font-size:0.9em;
+    text-align: center;
+}
+.rowCell {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 2.4em;
+    line-height: 2.4em;
+    font-size:0.9em;
+    padding:0 0 0.4em 0;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-topleft: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.rowCellHeader {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 1.6em;
+    line-height: 1.6em;
+    font-size:0.9em;
+    padding:0;
+}
+.rowCell .topHalfCell {
+    line-height: 1.4em;
+    font-size:1em;
+    width:100%;
+    display: block;
+}
+.rowCell .bottomHalfCell {
+    line-height: 1.25em;
+    font-size:0.8em;
+    width:100%;
+    display: block;
+}
+.span1col {
+    width:90%;
+}
+.span2col {
+    width:44%;
+    padding-left:1%;
+}
+.span3col {
+    width:29%;
+    padding-left:1%;
+}
+.span4col {
+    width:21.5%;
+    padding-left:1%;
+}
+.span5col {
+    width:17%;
+    padding-left:1%;
+}
+.span6col {
+    width:14%;
+    padding-left:1%;
+}
+.span6colFull {
+    width:56%;
+    padding-left:1%;
+}
+.span7col {
+    width:11.5%;
+    padding-left:1%;
+}
+/**participant detail**/
+.dataPanel {
+    width:100%;
+    display: block;
+    min-height: 220px;
+    padding:2em 5%;
+}
+
+

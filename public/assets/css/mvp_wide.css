@@ -1,0 +1,2112 @@
+#myApp {
+    clear:both;
+    margin:0;
+    height:auto!important;
+}
+.bgpicSmall {
+    background-image: url('../img/home_header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300px;
+    overflow: hidden;
+    display:block;
+}
+.profile {
+    max-width: 100%;
+    min-wdith:700px;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+}
+.khmoniker {
+    height:60px;
+    margin-top:10px;
+    width:160px;
+    display: block;
+    background-image: url('../img/img_logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-left:1em;
+}
+.kh_compare {
+    width:500px;
+    height:200px;
+    display: block;
+    margin:120px auto 0 auto;
+    background-image: url('../img/img_logo2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.khWideMoniker {
+    width:100px!important;
+    background-color:rgb(153,5,86);
+}
+.leftNav {
+    width:200px;
+    height:100%;
+    display: block;
+    position: fixed;
+    z-index:1010;
+    top:0px;
+}
+.leftNav .clientLogo {
+    line-height: 80px!important;
+    height:80px!important;
+    width:200px;
+    display: block;
+    padding-left:50px!important;
+    font-size:2em!important;
+    background-image: url('');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+}
+.leftNav .sideMenuItem  {
+    width:200px;
+    height:60px;
+    display: block;
+    cursor: pointer;
+    border-left-width:5px;
+    line-height: 25px;
+    padding: 17px 20px 17px 20px;
+    border-left-style: solid;
+    border-left-color:#525E6E;
+    color:#B9BEC5;
+    font-size:0.8em;
+    text-align: left;
+}
+.leftNav .sideMenuItem:hover {
+    border-left-color:#00B1B5;
+    color:#fff;
+    background-color:#3C495A;
+}
+.leftNav .userMenu:hover {
+    border-left-color: #FFD923!important;
+}
+.leftNav .userMenu.active {
+    border-left-color: #FFD923!important;
+    color:#fff;
+    background-color:#3C495A;
+}
+.leftNav .userMenuDropDown .sideMenuItem.active {
+    border-left-color: #FFD923!important;
+    color:#fff;
+    background-color:#3C495A;
+}
+.leftNav .toggleUserMenu {
+    margin-right:0!important;
+    margin-top:5px;
+}
+.leftNav .userMenuDropDown .sideMenuItem:hover {
+    border-left-color: #FFD923;
+}
+.leftNav .userMenuDropDown .sideMenuItem {
+    border-left-color:#3C495A;
+    background-color: #3C495A;
+}
+.userMoniker {
+    width:30px;
+    height:30px;
+    display:inline-block;
+    padding-top:2px;
+    background-color: #202020;
+    margin-right:10px;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-style: normal;
+}
+.commentMoniker {
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    display:inline-block;
+    margin-right:10px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size:0.8em;
+}
+.leftNav .sideMenuItem .fa {;
+    margin-right:10px;
+}
+.leftNav .mainMenu .sideMenuItem.active {
+    border-left-color:#00B1B5!important;
+    color:#fff;
+    background-color:#3C495A;
+}
+.action {
+    /*font-size:0.6em !important;*/
+    line-height: 45px;
+    padding:0 1em;
+    cursor: pointer;
+}
+.action i {
+    margin-right:0.5em;
+}
+.header {
+    width:100%;
+    height:60px;
+    position: relative;
+    display: block;
+    z-index:1;
+}
+.footer {
+    width:100%;
+    height:200px;
+    display: block;
+}
+.footer .caption {
+    width:50%;
+    display: block;
+}
+.footer .caption h5 {
+    display: block;
+    font-size:0.8em!important;
+    text-align: left;
+    position:relative;
+    font-weight: 300;
+    margin:0;
+}
+.footer .caption a {
+    font-size:0.8em!important;
+    text-align: left;
+    display: block;
+    font-weight: 300;
+    margin-right:1em;
+}
+.stickyBottom {
+    position:absolute;
+    bottom:0!important;
+}
+.fullNav {
+    width:100%;
+    height:80px;
+    display: block;
+    z-index:1000;
+    top:0px;
+    position:fixed;
+    opacity:0.9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    transition:opacity 1s ease 0s;
+    box-sizing:content-box;
+}
+.nav {
+    width:86%;
+    height:80px;
+    display: block;
+    z-index:1000;
+    top:0px;
+    position:fixed;
+    opacity:0.9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    transition:opacity 1s ease 0s;
+    box-sizing:content-box;
+}
+.nav a {
+    margin:21px 1.5em 21px 1.5em!important;
+}
+.nav .dropDowns {
+    width:auto!important;
+    height:80px;
+    display: block;
+}
+.nav .dropDown {
+    width:auto!important;
+    padding-top:1em;
+    height:80px;
+    display: block;
+}
+.nav label {
+    font-size:0.8em;
+}
+.nav select {
+    margin:0;
+    display: block;
+    font-family: 'Open Sans','Roboto',Arial, Helvetica;;
+    font-size:0.95em;
+    padding:0;
+    padding-right:1.2em;
+    border:0;
+    background-color:transparent;
+}
+.nav h4 {
+    margin:0!important;
+    padding:0;
+    display: block;
+    height:80px;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-weight: 300;
+    width:30%!important;
+    font-family: "Roboto","Arial";
+}
+.nav .toggleButton {
+    cursor: pointer;
+    display: block;
+    margin:21px 0 21px 0!important;
+    padding:0.4em 1em;
+    line-height: 1.6em;
+    height:auto!important;
+    text-align: center;
+    text-decoration: none;
+    width: auto!important;
+    text-decoration: none;
+}
+.nav .leftToggle {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-left:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.nav .rightToggle {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-right:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.nav .middleToggle {
+    border:1px solid #bebebe;
+}
+/*.nav select:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    text-decoration: inherit;
+    font-size: 100px;
+    color:#3c495a;
+    top: 50%;
+    left: 95%;
+    margin: -300px 0 0 -200px;
+    z-index: 1;
+}*/
+.main {
+    width:100%;
+    height:auto!important;
+    z-index: 1;
+    top:80px;
+    position: relative;
+}
+.infoCaptionCentered {
+    width:960px;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:2em;
+    text-align: center;
+    height:300px;
+    line-height: 300px;
+}
+.infoCaption {
+    width:960px;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:2em;
+    text-align: center;
+    position:relative;
+    top:75px;
+}
+.infoCaption h4 {
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:0.8em!important;
+    text-align: center;
+    position:relative;
+    font-weight: 300;
+    font-family: "Roboto","Arial";
+}
+.infoCaption h5 {
+    margin:40px auto 0 auto;
+    display: block;
+    font-size:0.6em!important;
+    text-align: center;
+    position:relative;
+    font-weight: 300;
+    font-family: "Roboto","Arial";
+}
+.toolPanel {
+    width:100%;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+}
+.toolPanel h5 {
+    margin:0;
+}
+.infoPanel {
+    width:100%;
+    height:360px;
+    display: block;
+    padding:0;
+}
+.centerPanel {
+    width:960px;
+    height:auto!important;
+    overflow: hidden;
+    margin:0 auto;
+    display: block;
+}
+.innerPanel {
+    width:960px;
+    padding:40px 0;
+    /*min-height:360px;*/
+    height:auto!important;
+    margin:0 auto;
+    display: block;
+}
+.privacypanel {
+    width:90%;
+    height:auto;
+    margin:0 5%;
+    display: block;
+    text-align: justify;
+    font-weight: 300;
+    font-size:0.9em;
+    font-family:"Open Sans",Helvetica,Arial;
+}
+.privacypanel ul {
+    margin:0;
+    padding:0;
+    width:80%;
+    height:auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+.privacypanel ul li {
+    display: block;
+    height:auto!important;
+    margin-bottom:0.5em;
+    list-style-type: square!important;
+    width:80%!important;
+}
+.innerPanel ul {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+.innerPanel ul li {
+    width:33%;
+    height:280px;
+    display: block;
+}
+.innerPanel .whatWeDo {
+    width:100%;
+    height:112px;
+}
+.innerPanel h4 {
+    font-size:1.2em;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Roboto","Arial";
+}
+.innerPanel p {
+    width:90%;
+    height:auto;
+    margin:0 5%;
+    display: block;
+    text-align: justify;
+    font-weight: 300;
+    font-size:0.9em;
+}
+.innerPanel .caption {
+
+}
+.leftOffset {
+    padding-left:200px;
+}
+h2 {
+    margin-top:0;
+}
+.backgroundPanel {
+    margin:0 5%;
+    width:35%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+}
+.noSidePadding {
+    padding:2em 0!important;
+}
+.panel {
+    width:96%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+    opacity:0.95;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    transition: opacity 3s ease-in 0s;
+}
+.panel.noRadius {
+    border-radius:0;
+}
+.panel.topRadius {
+    border-radius: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel.bottomRadius {
+    border-radius: 0;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.panel .formSpacer {
+    padding:1em 0;
+    height: auto!important;
+    overflow: hidden;
+}
+.threeQtr {
+    width:75%!important;
+    height: auto!important;
+    overflow: hidden;
+}
+.threeQtrBorder {
+    width:73!important%;
+    height: auto!important;
+    overflow: hidden;
+}
+.autoInput {
+    width:auto!important;
+}
+.inlineButton {
+    margin-right:2em!important;
+}
+.fullInput {
+    width:100%!important;
+}
+.selectInput {
+    width:28%!important;
+}
+.qtrInput {
+    width:18%!important;
+    margin-left:2%;
+}
+.fourthInput {
+    width:25%!important;
+    padding:0 1.5em!important;
+}
+.threeFourthInput {
+    width:75%!important;
+    padding:0 1.5em!important;
+}
+.thirdInput {
+    width:33%!important;
+    padding:0 1.5em!important;
+}
+.fullThirdInput {
+    width:33%!important;
+    padding:0 1.5em!important;
+}
+.twoThirdInput {
+    width:66%!important;
+    padding:0 1.5em!important;
+}
+.largeSelect {
+    width:48%!important;
+    margin:0 2%!important;
+}
+.halfInput {
+    width:50%!important;
+}
+.nineCol {
+    width:90%!important;
+}
+.sevenCol {
+    width:11.5%!important;
+    margin-left:1%!important;
+}
+.oneCol {
+    width:10%!important;
+}
+.fullHalfInput {
+    width:50%!important;
+    padding:0 1.5em!important;
+}
+.fullThreeFourthInput {
+    width:75%!important;
+    padding:0 1.5em!important;
+}
+.fullWidthInput {
+    width:100%;
+    padding:0 1.5em!important;
+}
+.fullWidthPanel {
+    padding:1em 0 0 0!important;
+}
+.fullWidthPanel .action:hover {
+
+}
+.lineHeight2em {
+    line-height: 2em!important;
+    height:2em!important;;
+}
+.font2em {
+    font-size:2em!important;
+}
+.font8em {
+    font-size:8em!important;
+}
+.padding2 {
+    padding:2em!important;
+}
+.noPadding {
+    padding:0!important;
+}
+.pleft100 {
+    padding-left:100px !important;
+}
+.pright100 {
+    padding-right:100px!important;
+}
+.leftPanel {
+    width:47.5%;
+    display:block;
+    overflow: hidden;
+    float:left;
+}
+.rightPanel {
+    width:47.5%;
+    float:right;
+    display:block;
+    overflow: hidden;
+}
+.spacerPanel {
+     padding:1em 2em !important;
+}
+.panel label {
+    width:100%;
+    font-size:0.9em;
+    padding:0.5em 0;
+    display: block;
+}
+.backgroundPanel select {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    padding:0.5em 1.2em 0.5em 0em;
+    border:0;
+    border:1px solid #bebebe;
+    text-transform: capitalize;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+
+}
+.backgroundPanel .button {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    line-height: 2.6em;
+    height:2.6em!important;
+    cursor: pointer;
+    padding:0em 1.2em!important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+}
+.backgroundPanel a {
+    font-size:1em;
+    padding:0.2em 1.2em;
+    line-height: 3em;
+    text-transform: capitalize;
+}
+.panel select {
+    margin:0;
+    display: block;
+    border:0;
+    width:100%;
+    font-family: 'Roboto',Arial, Helvetica;
+    font-size:1em;
+    padding:0.5em 1.2em 0.5em 0em;
+    -webkit-appearance: menulist-button;
+    height: 2.4em;
+    background-color:#fff;
+}
+.subPanel {
+    max-width:40%!important;
+}
+.subPanelLeft {
+    float:left;
+}
+.subPanelRight {
+    float:right;
+}
+.offsetPanel {
+    position:relative;
+    z-index: 10;
+    top:50px;
+    opacity:0.97;
+}
+.modalPanel {
+    max-width:500px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+}
+.brand_header {
+    width:100%;
+    display: block;
+    height:100px;
+    background-image:url('../img/icons/logo_signup.png');
+    background-repeat:  no-repeat;
+    background-position: center center;
+}
+.panel h3 {
+    font-size:1.2em;
+    text-transform: capitalize;
+    font-family: "Roboto","Arial";
+}
+.panel h4 {
+    margin:0;
+    padding:0;
+    width:auto;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size:1em;
+    text-transform: uppercase;
+    margin-bottom:1.5em;
+    font-family: "Roboto","Arial";
+}
+.fullWidthPanel h4 {
+    margin:0;
+    padding:0 2em;
+    width:100%;
+    margin-bottom:1em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size:1em;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-family: "Roboto","Arial";
+}
+.panel h4 i {
+
+}
+.panel h5 {
+    margin:0;
+    padding:0;
+    width:auto!important;
+    height:3em;
+    line-height: 3em;
+    font-size:1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Roboto","Arial";
+}
+.panel h6 {
+    margin:0;
+    padding:0;
+    margin-bottom:0.5em;
+    font-weight: 200;
+    font-size:0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Roboto","Arial";
+}
+.boxShadow {
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.22);
+}
+.boxLeftShadow {
+    box-shadow: -1px 0px 1px 0 rgba(0, 0, 0, 0.22);
+}
+.boxRightShadow {
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.22);
+}
+.boxBottomShadow {
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.22);
+}
+.smallPanel {
+    padding:1em 10%;
+    width:100%;
+    height:auto!important;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.tab {
+    margin:1em 0 0.5em 0;
+    padding:0.5em 1em;
+    line-height: 1.6em;
+    min-width:8em;
+    width:auto!important;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button {
+    border-radius: 0;
+    margin:1em 0 0.5em 0;
+    padding:0.4em 1em;
+    line-height: 1.6em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.smallButton {
+    border:0;
+    border-radius: 0;
+    padding:0 1em;
+    height:2em;
+    line-height: 2em;
+    width:7em;
+    text-align: center;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.smallAutoButton {
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    height: 2.4em;
+    line-height: 2.3em;
+    padding: 0 1em;
+    text-align: center;
+    text-decoration: none;
+    width: auto!important;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+textarea {
+    border:1px solid #bebebe;
+    padding:0.5em 1.2em;
+    display: block;
+    height:4em;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:0.9em;
+    resize: none;
+}
+input {
+    padding:0.5em 0.9em;
+    display: block;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:0.9em;
+    height: 2.4em;
+    width:100%;
+    border:1px solid #bebebe;
+}
+.linkButton {
+    border:0;
+    border-radius: 0;
+    margin:1em 0;
+    padding:0.5em 0;
+    font-size:0.9em;
+    width:auto;
+    font-weight: normal;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+input[type="button"] {
+    padding:0.5em 1.2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 100%;
+    border:0;
+}
+input[type="submit"] {
+    padding:0.5em 1.2em;
+    width:auto;
+    line-height: 100%;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:0;
+}
+.fullWidth {
+    width:100% !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    text-align: center !important;
+}
+input[type="checkbox"] {
+    border-radius: 1px;
+    /*margin:0.8em 0 0.5em 0;*/
+    padding:0.5em 1.2em;
+    height:1.4em;
+    width:1.4em;
+    display: block;
+    line-height: 1.4em;
+    border: 1px solid #bebebe;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+input[type="checkbox"]:checked {
+    background-color:#3c495a;
+}
+input[type="radio"] {
+    padding:0.5 1.2em;
+    height:1.4em;
+    width:1.4em;
+    display: block;
+    line-height: 1.5em;
+}
+input[type="radio"]:checked {
+    background-color:#3c495a;
+}
+/* summary metric */
+.fromTo {
+    display: inline-block;
+    margin-left:1em;
+}
+.programCondition {
+    font-size:1em!important;
+}
+.programName {
+    text-transform: uppercase;
+    padding-bottom: 1em !important;
+}
+.panel .metrics {
+    width:50%;
+    overflow: hidden;
+    height:auto!important;
+    display: block;
+}
+.panel .fullWidthMetric {
+    width:100%;
+    min-height:50px;
+    overflow: hidden;
+    height:auto!important;
+    display: block;
+}
+.fullWidthMetric h5 {
+    line-height: 45px;
+    width:auto!important;
+    font-size:1em;
+}
+.iconMetric {
+    width:100%;
+    height:3.5em;
+    padding:1em 2em;
+    display: block;
+}
+.iconMetric .caption {
+    width:120px;
+    height:1.5em;
+    line-height: 1.5em;
+    font-size:0.9em;
+    display: block;
+}
+.iconMetric .value{
+    width:40px;
+    height:1.5em;
+    line-height: 1em;
+    display: block;
+}
+.iconMetric .note{
+    width:170px;
+    height:1.5em;
+    line-height: 1.5em;
+    font-size:0.9em;
+    display: block;
+}
+/**number metric**/
+.numberMetric {
+    width:20%;
+    padding:1em;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.numberMetric .icon {
+    width:35px;
+    height:35px;
+    display: block;
+    margin:0 auto;
+}
+.numberMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.goalBlockMetric .numberMetric .caption {
+    width:100%;
+    height: 3em;
+    line-height: 3em;
+    font-size:0.8em;
+    text-transform: uppercase;
+    display: block;
+}
+.goalBlockMetric .caption.valueGoalNum {
+    position:relative;
+    width:100%;
+    height: 3em;
+    line-height: 3em;
+    font-size:0.8em;
+    text-transform: uppercase;
+    display: block;
+}
+.goalBlockMetric .caption .valueGoalTargetCaption {
+    height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    width:100%;
+    position:absolute;
+    z-index: 2;
+    top:0;
+    left:0;
+}
+.goalBlockMetric .caption .valueGoalTarget {
+    height: 3em;
+    display: block;
+    width:0%;
+}
+.goalBlockMetric .numberMetric .value {
+    width:100%;
+    height: auto!important;
+}
+.goalBlockMetric .numberMetric .valueLabel {
+    line-height: 1.5em;
+    height:1.5em;
+    margin-bottom:1.5em;
+    font-family: "Open Sans";
+}
+.numberMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 300;
+    display: block;
+}
+.numberMetric .valueDate {
+
+}
+.numberMetric .valueLabel {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.panelCaption {
+
+}
+.surveyQuestion {
+    font-weight: 200;
+    font-size:0.9em;
+    width:80%;
+}
+.surveyCount {
+    font-weight: 200;
+    font-size:0.9em;
+    width:20%;
+}
+.surveyAnswer {
+    font-size:1em;
+    font-weight: 300;
+}
+/**program metric**/
+.programMetric {
+    width:20%;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.programMetric h5 {
+    font-size:0.8em;
+    padding-left:0!important;
+    font-family: "Open Sans";
+}
+.programMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.programMetric .value{
+    width:100%;
+    line-height: 1.6em;
+    font-weight: 500;
+    display: block;
+    font-family: "Open Sans";
+}
+.programMetric .value .split {
+    font-size:0.6em;
+    line-height: 2em;
+    padding:0 0.5em;
+}
+.programMetric .value a {
+    font-size:0.8em !important;
+}
+/** bar chart**/
+.chartContainer {
+    width:48%;
+    float:left;
+}
+.chartContainer h5 {
+    text-align: center;
+}
+/**bar icon panel**/
+.iconPanel {
+    width:80px;
+    height:auto!important;
+}
+.iconPanel .icon {
+    width:45px !important;
+    height:45px !important;
+    margin-left:15px;
+    margin-top:25px;
+}
+.iconPanel h6 {
+    font-size:0.8em;
+    margin-bottom:0;
+    text-align: center;
+}
+.iconUnits {
+    text-transform: none!important;
+}
+/**data count metric**/
+p .value {
+    font-size:2em!important;
+    line-height: 2em !important;
+    font-weight: 700 !important;
+}
+.dataCountMetric {
+    width:25%;
+    padding:1em;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.dataCountMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    margin: 0 auto;
+}
+.dataCountMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.dataCountMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 700;
+    display: block;
+}
+.iconBarMetric {
+    height:auto;
+    overflow: hidden;
+    width:100%;
+    display:block;
+}
+.iconBarMetric h5 {
+    line-height: 45px;
+    font-size:0.8em!important;
+}
+.iconBarMetric .barBlock {
+    width:100%;
+    margin-left:45px;
+    position: relative;
+    z-index: 1;
+}
+.iconBarMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.iconBarMetric .barMetric {
+    width: 100%;
+    height:18px;
+    line-height:18px;
+    display: block;
+}
+.iconBarMetric .caption {
+    font-size:0.8em;
+    display: block;
+}
+.iconBarMetric .value {
+    font-size:0.8em;
+    display: block;
+}
+.iconBarMetric .barOuter {
+    width: 86%;
+    height:10px;
+    display: block;
+    position: relative;
+}
+.iconBarMetric .barInner {
+    width: 40%;
+    height:10px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.iconBarMetric .barInnerCaption {
+    width: 100%;
+    padding-left:1em;
+    height:45px;
+    line-height: 45px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+/**program ui**/
+.dataType {
+    width:100%;
+    height:auto!important;
+    padding:1em;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+.dataType .description {
+    width:80%;
+    float:left!important;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+}
+.dataType h5 {
+    margin:0;
+}
+.dataType h6 {
+    margin:0;
+    text-transform: lowercase;
+}
+.dataType .icon {
+    width:45px!important;
+    height:45px!important;
+}
+/**step icon**/
+.step_icon_spacer {
+    width:auto;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+.substep {
+    line-height: 3em;
+    height:3em;
+    display: block;
+    width:auto!important;
+    cursor: pointer;
+}
+.step {
+    font-size:0.6em !important;
+    padding:0 1em;
+    cursor: pointer;
+}
+.step_icon_border {
+    border-width: 2px;
+    border-style: solid;
+}
+.step_icon {
+    width:1.5em;
+    display: block;
+    text-align: center;
+}
+.step1 {
+    height:auto!important;
+    width:100%;
+    display: block;
+    overflow: hidden;
+}
+.step2 {
+    height:auto!important;
+    width:100%;
+    display: none;
+    overflow: hidden;
+}
+.step3 {
+    height:auto!important;
+    width:100%;
+    display: none;
+    overflow: hidden;
+}
+/**new survey**/
+.progName {
+    font-size:1em!important;
+    line-height: 1em!important;
+    width:75%!important;
+}
+.question {
+    width:100%!important;
+    height:auto!important;
+    overflow:hidden;
+}
+.questionText {
+    width:100% !important;
+}
+.question select {
+    margin:1em 0!important;
+}
+.questionSubForm {
+    width:100%;
+    display: block;
+    overflow: hidden;
+}
+.isMandatory {
+    width:100%;
+    display: block;
+    height:3em;
+    padding:0.5em 0.5;
+}
+.toggleButton {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 2em;
+    height:3em;
+    line-height: 2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.leftToggle {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-left:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.rightToggle {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-right:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.smallLabel {
+    width:100% !important;
+    display: block;
+}
+.questionOptions {
+    display: block;
+    overflow: hidden;
+    width:100%;
+}
+.questionOption {
+    width:100%;
+}
+/**invites form**/
+.inviteChoices {
+    display: block;
+    height:auto!important;
+    width:auto;
+    overflow: hidden;
+}
+.inviteBySignUp {
+    display: none;
+}
+.inviteByEmail {
+    display: none;
+}
+.participantQuit {
+    height:3em;
+    padding: 0.5em 1.2em;
+    display: block;
+    line-height: 2em;
+    text-align: center;
+}
+/**surveyStatus**/
+.participantTextAnswer {
+    width:100%;
+    display: block;
+    line-height: 1.4em;
+    font-size:0.8em;
+    padding:0.2em 0;
+}
+.participantStatus {
+    width:100%;
+    display: block;
+    line-height: 3em;
+    font-size:0.9em;
+}
+.participantStatus .leftPanelContent {
+    width:15%;
+    height:3em;
+    display: block;
+    padding:0.8em 0;
+}
+.participantStatus .rightPanelContent {
+    width:85%;
+    height:3em;
+    display: block;
+}
+.participantStatus .icon {
+    height:25px;
+    width:25px;
+    display: block;
+}
+.participantStatus .fa{
+    font-size:1.2em;
+    margin:0.8em 0;
+}
+/**participant dashboard**/
+.row {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    line-height: 1.2em;
+    display: block;
+    font-size:1em;
+}
+.rowHeader {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    font-size:.9em;
+}
+.rowDetail {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    display:block;
+}
+.rowIcon {
+    width:5% !important;
+    height:auto!important;
+    overflow:hidden;
+    display: none;
+    min-height: 1.4em;
+    line-height: 1.4em;
+    font-size:0.9em;
+    text-align: center;
+}
+.rowCell {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 2.4em;
+    line-height: 2.4em;
+    font-size:0.9em;
+    padding:0.4em 0 0.4em 0;
+}
+.rowUnits {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    font-size:0.8em;
+    padding-top:0.2em;
+}
+.rowCellHeader {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 1.2em;
+    line-height: 1.2em;
+    font-size:1em;
+    padding:0;
+}
+.rowCell .topHalfCell {
+    line-height: 1.4em;
+    font-size:1em;
+    width:100%;
+    display: block;
+}
+.rowCell .bottomHalfCell {
+    line-height: 1.25em;
+    font-size:0.8em;
+    width:100%;
+    display: block;
+}
+.span1col:hover, .span2col:hover, .span3col:hover, .span4col:hover,
+.span5col:hover, .span6col:hover, .span7col:hover,
+.span8col:hover, .span9col:hover, .span10col:hover
+{
+background-color: #f8f8f8;
+}
+.nohover:hover {
+    background-color: transparent!important;
+}
+.span1col {
+    width:100%;
+}
+.span2col {
+    width:50%;
+    padding-left:1%;
+}
+.span2col.tcell {
+    width:48%;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span2col.lcell {
+    width:48%;
+    padding:0 1%!important;
+    margin:0 1%!important;
+}
+.span3col {
+    width:33%;
+    padding-left:1%;
+}
+.span3col.tcell {
+    width:31%;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span3col.lcell {
+    width:31%;
+    padding:0 1%!important;
+    margin:0 1%!important;
+}
+.span4col {
+    width:25%;
+    padding-left:1%;
+}
+.span4col.tcell {
+    width:23%!important;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span4col.lcell {
+    width:23%!important;
+    padding:0 1%!important;
+    margin:0 1%!important;
+}
+.span5col {
+    width:20%;
+    padding-left:1%;
+}
+.span5col.tcell {
+    width:18%!important;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span5col.lcell {
+    width:18%!important;
+    padding:0 1%!important;
+    margin:0 1%!important;
+}
+.span6col {
+    width:16.6%;
+    padding-left:1%;
+}
+.span6col.tcell {
+    width:16.6%;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span4colFull {
+    width:50%;
+    padding-left:1%;
+}
+.span6colFull {
+    width:50%;
+    padding-left:1%;
+}
+.span7colFull {
+    width:42%;
+    padding-left:1%;
+}
+.span8colFull {
+    width:60%;
+    padding-left:1%;
+}
+.span7col {
+    width:14.2%;
+    padding-left:1%;
+}
+.span7col.tcell {
+    width:13.2%;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span7col.lcell {
+    width:13.2%;
+    padding:0 1%!important;
+    margin:0 1%!important;
+}
+.span8col {
+    width:12.5%;
+    padding-left:1%;
+}
+.span8col.tcell {
+    width:11.5%;
+    padding:0 1%!important;
+    margin:0.5em 1%!important;
+}
+.span8col.lcell {
+    width:11.5%;
+    padding:0 1%!important;
+    margin:0 1%!important;
+}
+.span9col {
+    width:11%;
+    padding-left:1%;
+}
+.span10col {
+    width:10%;
+    padding-left:1%;
+}
+.span9colFull {
+    width:75%;
+    padding-left:1%;
+}
+.span10colFull {
+    width:78%;
+    padding-left:1%;
+}
+/**participant detail**/
+.dataPanel {
+    width:100%;
+    display: block;
+    min-height: 220px;
+    height:auto!important;
+    overflow:hidden;
+    padding:1.5em;
+}
+.dataPanelHeader {
+    width:100%;
+    display: block;
+    height:auto!important;
+    overflow: hidden;
+}
+.dataPanelCharts {
+    width:100%;
+    display: block;
+    min-height: 280px;
+    height:auto!important;
+    overflow: hidden;
+
+}
+.dataPanelList {
+    width:100%;
+    display: block;
+    height: 280px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+.dataPanelContent {
+    width:100%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+}
+.leftDataPanelContent {
+    width:20%;
+    min-height:339px;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+    position:relative;
+    z-index:3;
+}
+.verticalTabMenu {
+    width:100%;
+    height:100%;
+    display: block;
+    overflow: hidden;
+}
+.verticalTab {
+    width:99%;
+    height:3em;
+    line-height: 3em;
+    font-size:0.9em;
+    display: block;
+    float:right;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.rightDataPanelContent {
+    width:80%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+    position:relative;
+    z-index:2;
+
+}
+.dataPanel h4 {
+    max-width:200px;
+    line-height: 2em;
+    font-family: "Roboto","Arial";
+}
+.dataNav {
+    height:2.2em;
+    width:auto!important;
+    overflow: hidden;
+    display: block;
+    visibility: visible;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.dataNav .dateRange {
+    min-width: 180px!important;
+    width:auto!important;
+}
+.dataNav .toggleButton {
+    padding:0 1em;
+    height:100%;
+    line-height: 2.4em;
+    font-size:0.8em;
+    width:auto;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.dataNav .toggleButton.leftToggle {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:1px solid #bebebe;
+}
+.dataNav .toggleButton.rightToggle {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-right:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.dataNav .toggleButton.middleToggle {
+    border-top:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+    border-right:1px solid #bebebe;
+}
+.repeatLabel {
+    display:none;
+}
+/** messages **/
+.msgsReceived {
+    display: block;
+}
+.msgsSent {
+    display: none;
+}
+.pagingCtrls {
+    display: none;
+}
+.message {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    line-height: 2em;
+    display: block;
+    font-size:1em;
+    padding:0.4em 2em;
+}
+.messageRead {
+    width:40px;
+    margin: 0.6em 0;
+    min-height: 3em;
+    font-size:1.2em;
+    display: block;
+}
+.messageType {
+    width:80px;
+    margin: 0.6em 0;
+    background-position: top center !important;
+    min-height: 3em;
+    font-size:1.2em;
+    display: block;
+}
+.messageContent {
+    width:640px;
+    display: block;
+    height:auto;
+    min-height: 3em;
+    margin:0.5em 0;
+    overflow: hidden;
+}
+.messageSender {
+    font-size:1em!important;
+    margin:0 0 0.4em 0;
+    width:75%;
+    line-height: 1.2em;
+    height:auto!important;
+    overflow: hidden;
+}
+.messageTimeStamp {
+    font-size:0.8em!important;
+    margin:0 0 0.4em 0;
+    width:25%;
+    line-height: 1.2em;
+    height:auto!important;
+    overflow: hidden;
+}
+.messageBody {
+    font-size:0.8em!important;
+    width:100%;
+    line-height: 1.2em;
+    height:auto!important;
+    overflow: hidden;
+}
+.messageAction {
+    width:40px;
+    margin: 0.6em 0;
+    min-height: 3em;
+    font-size:1.2em;
+    display: block;
+}
+.messageAction a{
+    width:40px;
+    min-height: 3em;
+    font-size:1.2em;
+    display: block;
+}
+/** survey Progress bar**/
+.formSpacer .caption {
+    line-height: 2em;
+    width:100%;
+    height:4em;
+    display: block;
+}
+.formSpacer .barBlock {
+    width:100%;
+    position: relative;
+    height:auto!important;
+    overflow: hidden;
+    z-index: 1;
+}
+.formSpacer .barBlock .value {
+    font-size:1em;
+    height:2em;
+    width:4em;
+    line-height: 2em;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.formSpacer .barBlock .barOuter {
+    width: 100%;
+    height:2em;
+    display: block;
+    position: relative;
+}
+.formSpacer .barBlock .barInner {
+    width: 0%;
+    height:2em;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.verticallyCentered {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.goalBlock {
+    width:30%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+}
+.goalChart {
+    width:70%;
+    height:388px;
+    display: none;
+    overflow: hidden;
+}
+.goalEdit {
+    width:70%;
+    height:auto!important;
+    display: none;
+    overflow: hidden;
+}
+.goalBlockMetric {
+    width:100%;
+    height:auto!important;
+    display: block;
+    overflow:hidden;
+}
+.goalBlockMetric .icon {
+    margin-top:97px;
+}
+.goalBlockScroll {
+    height:2em;
+    width:100%;
+    line-height: 2em;
+    font-size:1.2em;
+    display: block;
+}
+.goalBlockScroll .fa {
+    height: 100%;
+    width:auto!important;
+    display: block;
+    font-size:1.2em;
+}
+.leftScroll {
+    margin-left:35%;
+}
+.rightScroll {
+    margin-right:35%;
+}
+.goalBlockData {
+    width:50%;
+    height: 280px;
+    display: block;
+}
+/*survey detail view*/
+.surveyDetailCont {
+    width:85%;
+    height:auto!important;
+    display:block;
+    overflow: hidden;
+    float:right;
+}
+.surveyScroll {
+    font-size:1.2em;
+    width:100%;
+    min-height: 1.4em;
+    height:auto!important;
+    overflow: hidden;
+    line-height: 1.4em!important;
+    display: block;
+}
+.surveyScrollLeft {
+    width:10%;
+    height:auto!important;
+    font-size:1.2em;
+    line-height: 1.4em!important;
+    height: 1.4em;
+    display: block;
+}
+.surveyScrollRight {
+    width:10%;
+    font-size:1.2em;
+    height:auto!important;
+    line-height: 1.4em!important;
+    height: 1.4em;
+    display: block;
+}
+.surveyScrollTitle {
+    width:80%;
+    height:auto!important;
+    display: block;
+    font-size:1em;
+}
+.surveyDetail {
+    width:100%;
+    display: block;
+    height:auto!important;
+    overflow: hidden;
+}
+.surveyDetail .surveyQuestion {
+    width:100%;
+    font-size:1em;
+}
+.surveyDetail .surveyCount {
+    display: none;
+}
+/**text messaging*/
+.charCounter {
+    line-height: 0.8em;
+    text-align: right;
+    display: block;
+}
+.txtMsgDialog {
+    display:none;
+}
+.txtMsgDialog textarea {
+    width:100%;
+}
+.orgUserTab {
+    padding-bottom:0!important;
+    display:none;
+}
+/**participant navigation**/
+.insidePanel {
+    width:100%!important;
+    padding:1.5em 1.5em 0 1.5em;
+    display: block;
+    height:auto!important;
+    overflow: hidden;
+}
+.participantNav {
+    line-height: 30px;
+    width:250px;
+    display: block;
+    padding:0px 20px 0px 20px;
+    font-size:.9em;
+}
+.panelCaptionText {
+    line-height: 2.4em!important;
+}
+.insidePanel h4 {
+    line-height: 2em!important;
+}
+.participantLeftScroll {
+    display: block;
+    line-height: 35px!important;
+    height:35px!important;
+}
+.participantRightScroll {
+    display: block;
+    line-height: 35px!important;
+    height:35px!important;
+}
+.detailLeftScroll {
+    display: block;
+    line-height: 2.4em!important;
+}
+.detailRightScroll {
+    display: block;
+    line-height: 2.4em!important;
+}
+/**add manual measurements**/
+.subFormSpacer {
+    height:3em;
+    width:100%;
+    display: block;
+}
+.rownTp {
+    padding-top:0!important;
+}
+
+.noRightBorder {
+    border-right:0!important;
+}
+/**abline line chart**/
+.abline {
+    height:3em;
+    display: block;
+}
+.abll {
+    display: block;
+    font-size:0.9em;
+    text-align: left;
+}
+.abrl {
+    display: block;
+    text-align: right;
+    font-size:0.9em;
+}
+.abrd {
+    display: block;
+    text-align: right;
+}
+/**learnings**/
+.statusLabel {
+    font-size:0.9em;
+}
+.statusCircle {
+    position:relative;
+    top: 50%;
+    margin-top:-20px;
+    width:15px;
+    height:15px;
+    display: block;
+    z-index:2;
+}
+.statusLine {
+    position:relative;
+    top:50%;
+    margin-top:-9px;
+    height:4px;
+    width:100%;
+    display: block;
+    z-index: 1;
+}
+/**forums**/
+.commentItem  {
+    height:40px;
+    display: block;
+    line-height: 24px;
+    padding: 0.5em 0 0 0;
+    font-size:0.8em;
+    text-align: left;
+}

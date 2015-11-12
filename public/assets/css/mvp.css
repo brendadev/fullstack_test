@@ -1,0 +1,1629 @@
+#myApp {
+    clear:both;
+    overflow: hidden;
+}
+.profile {
+    min-width: 700px;
+    max-width:1100px;
+    width:auto!important;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    margin:0 auto;
+}
+.kh_compare {
+    width:100%;
+    height:100px;
+    display: block;
+    margin:120px auto 0 auto;
+    background-image: url('../img/img_logo2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.action {
+    /*font-size:0.8em;*/
+    line-height: 45px;
+    padding:0 1em;
+    cursor: pointer;
+}
+.action i {
+    margin-right:0.5em;
+}
+.header {
+    width:100%;
+    height:60px;
+    position: relative;
+    display: block;
+    z-index:1;
+}
+.footer {
+    width:100%;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+}
+.footer .caption {
+    width:40%;
+    display: block;
+}
+.footer .caption h5 {
+    display: block;
+    font-size:0.8em!important;
+    text-align: left;
+    position:relative;
+    font-weight: 300;
+    margin:0;
+}
+.footer .caption a {
+    font-size:0.8em!important;
+    text-align: left;
+    width:33%;
+    display: block;
+    font-weight: 300;
+    margin:0;
+}
+.stickyBottom {
+    position:absolute;
+    bottom:0;
+}
+.fullNav {
+    line-height: 60px;
+    width:100%;
+    height:60px;
+    display: block;
+    margin: 0 auto 0 auto;
+    overflow: visible;
+    top:0;
+    z-index:100;
+}
+.nav {
+    line-height: 2.4em;
+    width:100%;
+    display: block;
+    margin: 0 auto 0 auto;
+    overflow: visible;
+    position:fixed;
+    top:0;
+    z-index:100;
+}
+.userMenu {
+    width:100%;
+    padding: 0 20px;
+    height:100%;
+    display: block;
+    margin: 0;
+}
+.userMenuCaption {
+    width:auto;
+    display: block;
+    line-height: 2.4em;
+    margin:0 auto 0 0;
+}
+.userMenu i {
+    font-size:1.8em;
+}
+.userMenuItem {
+    width:100%;
+    padding: 0 20px 0 4em;
+    height:50px;
+    line-height: 50px;
+    display: block;
+    margin:0!important;
+}
+.userMenuItem:hover {
+    cursor:pointer;
+}
+.userMenuItemTop {
+    width:100%;
+    padding: 0 20px 0 1.2em;
+    height:52px;
+    line-height: 52px;
+    display: block;
+    margin:0!important;
+}
+.userMenuItemTop i {
+    font-size:1.8em;
+}
+.userMenuItemBottom {
+    width:100%;
+    padding: 0 20px 0 1.2em;
+    height:50px;
+    line-height: 50px;
+    display: block;
+    margin:0!important;
+}
+.userMenuItemBottom i {
+    font-size:1.8em;
+}
+.userMenuMobile {
+    position:fixed;
+    max-width:45%;
+    min-width:240px;
+    top:0;
+    height:100%!important;
+    display: none;
+    z-index:101;
+}
+.userDropDown {
+    width:240px;
+    height:auto!important;
+    overflow: hidden;
+    position:relative;
+    display: none;
+    z-index:100;
+    text-align: left;
+    left:55%;
+}
+
+.leftNav {
+    display: none;
+}
+.menu {
+    display: block;
+    height: 60px;
+    font-size:0.8em;
+    text-transform: uppercase;
+}
+.menuItem {
+    height:56px;
+    line-height: 56px!important;
+    text-transform: uppercase;
+    padding:0 1em;
+    border-top:4px solid #fff;
+}
+.menuItem:hover {
+    border-top:4px solid #00B1B5;
+    cursor: pointer;
+}
+.main {
+    width:100%;
+    min-height:700px;
+    height:auto!important;
+    overflow: hidden;
+    z-index: 1;
+    top:3em;
+    position: relative;
+}
+.top0 {
+    top:0!important;
+}
+.infoCaptionCentered {
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:2em;
+    text-align: center;
+    height:150px;
+    line-height: 150px;
+}
+.infoCaption {
+    width:90%;
+    height:auto;
+    overflow: hidden;
+    margin:0 5% 0 5%;
+    display: block;
+    font-size:1.4em;
+    text-align: center;
+    position:relative;
+    top:75px;
+}
+.generousInfoCaption {
+    width:90%;
+    height:140px;
+    overflow: hidden;
+    margin:0 5% 0 5%;
+    display: block;
+    font-size:1.4em;
+    text-align: center;
+    position:relative;
+    top:75px;
+}
+.infoCaption h4 {
+    margin:0 auto 0 auto;
+    display: block;
+    font-size:0.8em!important;
+    text-align: center;
+    position:relative;
+    font-weight: 300;
+}
+.infoCaption h5 {
+    margin:40px auto 0 auto;
+    display: block;
+    font-size:0.6em!important;
+    text-align: center;
+    position:relative;
+    font-weight: 300;
+}
+.infoPanel {
+    width:100%;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    padding:0;
+}
+.errorPanel {
+    width:100%;
+    min-height:500px;
+    height:auto!important;
+    display: block;
+    padding:0;
+}
+.privacypanel {
+    width:90%;
+    height:auto;
+    margin:0 5%;
+    display: block;
+    text-align: justify;
+    font-weight: 300;
+    font-size:0.9em;
+    font-family:"Open Sans",Helvetica,Arial;
+}
+.privacypanel ul {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    list-style-type: square!important;
+}
+.privacypanel ul li {
+    display: block;
+    margin-bottom:0.5em!important;
+    height:auto!important;
+}
+.innerPanel {
+    width:90%;
+    padding:40px 0;
+    overflow:hidden;
+    height:auto!important;
+    margin:0 5%;
+    display: block;
+}
+.innerPanel ul {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+.innerPanel ul li {
+    width:100%;
+    height:280px;
+    display: block;
+}
+.innerPanel .whatWeDo {
+    width:100%;
+    height:112px;
+}
+.innerPanel h4 {
+    font-size:1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+.innerPanel p {
+    width:90%;
+    height:auto;
+    margin:0 5%;
+    display: block;
+    text-align: justify;
+    font-weight: 300;
+    font-size:0.9em;
+    font-family:"Open Sans",Helvetica,Arial;
+}
+.innerPanel .caption {
+
+}
+h2 {
+    margin-top:0;
+}
+.backgroundPanel {
+    margin:0 5%;
+    width:90%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+}
+.noSidePadding {
+    padding:2em 0!important;
+}
+.panel {
+    margin:2em 5%;
+    width:90%;
+    height:auto!important;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    opacity:0.95;
+    padding:2em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.panel .formSpacer {
+    padding:1em 2em;
+    height: auto!important;
+    overflow: hidden;
+    clear: both;
+}
+.formSpacer .threeQtr {
+    width:100%;
+    /*height: auto!important;*/
+    overflow: hidden;
+}
+.formSpacer input {
+    float:left;
+    margin:0!important;
+    border:1px solid #bebebe!important;
+    height:3em;
+}
+.formSpacer textarea {
+    float:left;
+    margin:0!important;
+    border:1px solid #bebebe!important;
+}
+.brand_header {
+    width:100%;
+    display: block;
+    height:100px;
+}
+.buttonWidth {
+    width:80%!important;
+}
+.autoInput {
+    width:100%!important;
+}
+.inlineButton {
+    margin-top:1em!important;
+    margin-bottom:1em!important;
+}
+.fullInput {
+    width:100%!important;
+}
+.qtrInput {
+    width:100%!important;
+    margin-left:2%;
+}
+.fourthInput {
+    width:21%!important;
+    margin:0 2%;
+}
+.fullThirdInput {
+    width:31%!important;
+    margin-left:2% !important;
+}
+.thirdInput {
+    width:100%!important;
+}
+.fullHalfInput {
+    width:50%!important;
+}
+.halfInput {
+    width:100%!important;
+}
+.nineCol {
+    width:100%!important;
+}
+.oneCol {
+    width:100%!important;
+}
+.formSpacer select {
+    float:left;
+    margin:0!important;
+}
+.fullWidthPanel {
+    padding:1em 0 0 0!important;
+}
+.fullWidthPanel label {
+    float:left;
+    line-height: 3em;
+    padding:0!important;
+}
+.fullWidthPanel .action:hover {
+
+}
+.padding2 {
+    padding:2em!important;
+}
+.lineHeight2em {
+    line-height: 2em!important;
+    height:2em!important;
+    width:100%;
+}
+.font2em {
+    font-size:1.4em!important;
+}
+.font8em {
+    font-size:4em;
+}
+.noPadding {
+    padding:0!important;
+}
+.pleft100 {
+    padding-left:2em; !important;
+}
+.pright100 {
+    padding-right:2em!important;
+}
+.spacerPanel {
+    padding:1em 2em !important;
+}
+.panel label {
+    width:100%;
+    font-size:0.9em;
+    padding:0;
+    display: block;
+    margin:0;
+    margin-bottom:0.5em;
+}
+.backgroundPanel select {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    padding:0.5em 1.2em;
+    border:0;
+    border:1px solid #bebebe;
+    text-transform: capitalize;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+}
+.backgroundPanel .button {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    line-height: 2.6em;
+    height:2.6em!important;
+    cursor: pointer;
+    padding:0em 1.2em!important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+}
+.panel select {
+    width:100%;
+    margin:0;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    padding:0.5em 1.2em;
+    border:0;
+    border:1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top:1em;
+    margin-bottom:1em;
+    height:3em;
+}
+.offsetPanel {
+    position:relative;
+    z-index: 10;
+    top:50px;
+    opacity:0.97;
+}
+.panel h3 {
+    font-size:1.2em;
+    text-transform: capitalize;
+}
+.panel h4 {
+    margin:0;
+    padding:0;
+    width:100%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size:1em;
+    text-transform: uppercase;
+    margin-bottom:2em;
+}
+.fullWidthPanel h4 {
+    margin:0;
+    padding:0 2em;
+    width:100%;
+    margin-bottom:1em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size:1em;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.panel h5 {
+    margin:0;
+    padding:0;
+    width:100%;
+    margin-bottom:1em;
+    font-weight: 500;
+    font-size:1.1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.panel h6 {
+    margin:0;
+    padding:0;
+    margin-bottom:0.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.boxShadow {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+.smallPanel {
+    padding:1em 10%;
+    width:100%;
+    height:auto!important;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+form {
+    height:auto!important;
+    overflow: hidden;
+}
+.tab {
+    margin:1em 0 0.5em 0;
+    padding:0.5em 1em;
+    line-height: 1.6em;
+    min-width:8em;
+    width:auto!important;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button {
+    margin:1em 0 0.5em 0;
+    padding:0.4em 2em;
+    height:3em;
+    line-height: 2em;
+    width:auto;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-weight: bold;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.smallButton {
+    border:0;
+    border-radius: 0;
+    padding:0 1em;
+    height:2em;
+    line-height: 2em;
+    width:auto !important;
+    min-width:7em;
+    max-width:7em;
+    overflow:hidden;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.widthOverride {
+    min-width:40%;
+    max-width: 40%;
+}
+.smallAutoButton {
+    border:0;
+    border-radius: 0;
+    padding:0 1em;
+    height:2em;
+    line-height: 2em;
+    width:auto!important;
+    text-align: center;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+label {
+    width:100%;
+    margin:1em 0 0.5em 0;
+    display: block;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+textarea {
+    border:1px solid #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin:0.2em 0 1em 0;
+    padding:0.5em 1.2em;
+    display: block;
+    width:100%;
+    height:4em;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    resize: none;
+}
+input {
+    border:0;
+    border-radius: 0;
+    margin:0.2em 0 1em 0;
+    padding:0.5em 1.2em;
+    width:100%;
+    display: block;
+    -webkit-appearance: none;
+    font-family: 'Roboto',Arial, Helvetica;;
+    font-size:1em;
+    box-shadow:none !important;
+}
+input[type=text] {
+    border:1px solid #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em;
+}
+input[type=email] {
+    border:1px solid #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em;
+}
+input[type=date] {
+    border:1px solid #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em;
+}
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+input[type="date"]::-webkit-input-placeholder{
+    visibility: hidden !important;
+}
+input[type=password] {
+    border:1px solid #ebebeb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height:3em;
+}
+.linkButton {
+    border:0;
+    border-radius: 0;
+    margin:1em 0;
+    padding:0.5em 1.2em;
+    font-size:1em;
+    width:auto;
+    font-weight: normal;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+input[type="button"] {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 1.2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 1.2em;
+    width:auto;
+    font-size:1em;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.fullWidth {
+    width:100% !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    text-align: center !important;
+}
+input[type="checkbox"] {
+    border-radius: 1px;
+    margin:0.8em 0 0.5em 0;
+    padding:0;
+    height:1.4em;
+    width:1.4em;
+    display: block;
+    line-height: 1.4em;
+    -webkit-appearance: none;
+    border: 1px solid #c6c6c6;
+    background-color: #dedede;
+    box-sizing: border-box;
+}
+input[type="checkbox"]:checked {
+    background-color:#3c495a;
+}
+input[type="radio"] {
+    border-radius: 0;
+    margin:1.5em 0 0.5em 0;
+    padding:0;
+    height:1.5em;
+    width:1.5em;
+    display: block;
+    line-height: 1.5em;
+}
+/* summary metric */
+.fromTo {
+    display: block;
+    margin-left:0;
+}
+.programName {
+    text-transform: uppercase;
+    padding-bottom: 1em !important;
+}
+.panel .metrics {
+    width:50%;
+    overflow: hidden;
+    height:auto!important;
+    display: block;
+}
+.panel .fullWidthMetric {
+    width:100%;
+    min-height:50px;
+    overflow: hidden;
+    height:auto!important;
+    display: block;
+}
+.fullWidthMetric h5 {
+    line-height: 45px;
+    width:auto!important;
+    font-size:1em;
+}
+.iconMetric {
+    width:100%;
+    min-height:3.5em;
+    height:auto!important;
+    padding:1em 2em;
+    display: block;
+    overflow: hidden;
+}
+.iconMetric .caption {
+    width:auto;
+    height:1.5em;
+    line-height: 1.5em;
+    font-size:0.9em;
+    display: block;
+}
+.iconMetric .value{
+    width:40px;
+    max-width: 120px;
+    min-height:1.5em;
+    height:auto!important;
+    line-height: 1em;
+    display: block;
+}
+.iconMetric .note{
+    width:auto;
+    min-height:1.5em;
+    height:auto!important;
+    line-height: 1.5em;
+    font-size:0.9em;
+    display: block;
+    overflow: hidden;
+}
+/**number metric**/
+.numberMetric {
+    width:48%;
+    padding:1em;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.numberMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    margin: 0 auto;
+}
+.numberMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.numberMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 300;
+    display: block;
+}
+.numberMetric .valueDate {
+
+}
+.numberMetric .valueLabel {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.panelCaption {
+
+}
+.surveyQuestion {
+    font-weight: 200;
+    font-size:0.9em;
+    width:80%;
+}
+.surveyCount {
+    font-weight: 200;
+    font-size:0.9em;
+    width:20%;
+}
+.surveyAnswer {
+    font-size:1em;
+    font-weight: 300;
+}
+/**program metric**/
+.programMetric {
+    width:48%;
+    padding:1em 0;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.programMetric h5 {
+    font-size:0.8em;
+}
+.programMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.programMetric .value{
+    width:100%;
+    line-height: 1.4em;
+    font-weight: 700;
+    display: block;
+}
+.programMetric .value .split {
+    font-size:0.6em;
+    line-height: 2em;
+    padding:0 0.5em;
+}
+/**bar icon panel**/
+
+.iconPanel {
+    width:100%;
+    height:50px;
+    margin-bottom:0.5em;
+}
+.iconPanel .icon {
+    width:45px;
+    height:45px;
+    float:left;
+}
+.iconPanel h6 {
+    height:45px;
+    line-height: 45px;
+    float:left;
+    margin-left:1em;
+    width:70%;
+    font-size:1em;
+}
+.iconUnits {
+    text-transform: none!important;
+}
+.iconChartPanel {
+    width:100%;
+    display: block;
+    height:auto!important;
+    clear: both;
+}
+/** bar chart**/
+.chartContainer {
+
+}
+.chartContainer h5 {
+    text-align: center;
+}
+/**data count metric**/
+p .value {
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 700;
+}
+.dataCountMetric {
+    width:25%;
+    padding:1em;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.dataCountMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    margin: 0 auto;
+}
+.dataCountMetric .caption {
+    width:100%;
+    height: 1em;
+    line-height: 1em;
+    font-size:0.8em;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: block;
+}
+.dataCountMetric .value{
+    width:100%;
+    font-size:2em;
+    line-height: 2em;
+    font-weight: 700;
+    display: block;
+}
+.iconBarMetric {
+    height:auto;
+    overflow: hidden;
+    width:100%;
+    display:block;
+}
+.iconBarMetric h5 {
+    line-height: 45px;
+    font-size:0.8em!important;
+}
+.iconBarMetric .barBlock {
+    width:100%;
+    margin-left:45px;
+    position: relative;
+    z-index: 1;
+}
+.iconBarMetric .icon {
+    width:45px;
+    height:45px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.iconBarMetric .barMetric {
+    width: 100%;
+    height:18px;
+    line-height:18px;
+    display: block;
+}
+.iconBarMetric .caption {
+    font-size:0.8em;
+    display: block;
+}
+.iconBarMetric .value {
+    font-size:0.8em;
+    display: block;
+}
+.iconBarMetric .barOuter {
+    width: 86%;
+    height:10px;
+    display: block;
+    position: relative;
+}
+.iconBarMetric .barInner {
+    width: 40%;
+    height:10px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.iconBarMetric .barInnerCaption {
+    width: 100%;
+    padding-left:1em;
+    height:45px;
+    line-height: 45px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+/**program ui**/
+.dataType {
+    width:100%;
+    min-height:80px;
+    height:auto!important;
+    padding:1em 0;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+.dataType .description {
+    width:70%;
+    margin-left:0!important;
+    margin-left:0.5em!important;
+    float:left!important;
+    height:auto!important;
+    overflow: hidden;
+    display: block;
+}
+.dataType h5 {
+    margin:0;
+    font-size:0.8em;
+    margin-bottom: 0.5em;
+    overflow:hidden;
+}
+.dataType h6 {
+    margin:0;
+    font-size:0.7em;
+    text-transform: lowercase;
+    overflow:hidden;
+    font-weight: normal;
+}
+.dataType .icon {
+    width:45px!important;
+    height:45px!important;
+}
+.step_icon_spacer {
+    margin-top:12px;
+    width:22px;
+    height:22px;
+    display: block;
+    line-height: 22px;
+    font-size:1em;
+    text-align: center;
+}
+/**step icon**/
+.step_icon_border {
+    margin-top:12px;
+    border-width: 0px;
+    border-style: solid;
+    line-height: 22px!important;
+}
+.step_icon {
+    margin-top:12px;
+    width:22px;
+    height:22px;
+    display: block;
+    -webkit-border-radius: 22px;
+    -moz-border-radius:22px;
+    border-radius:22px;
+    line-height: 22px;
+    font-size:1em;
+    text-align: center;
+    background-color: transparent!important;
+    color:#00B1B5!important;
+}
+.step1 {
+    height:auto!important;
+    width:100%;
+    display: block;
+    overflow: hidden;
+}
+.step2 {
+    height:auto!important;
+    width:100%;
+    display: none;
+    overflow: hidden;
+}
+.step3 {
+    height:auto!important;
+    width:100%;
+    display: none;
+    overflow: hidden;
+}
+.noshow {
+    display: none;
+}
+/**new survey**/
+.progName {
+    font-size:1.2em!important;
+    line-height: 2em!important;
+    width:100%!important;
+}
+.question {
+    width:100%!important;
+    height:auto!important;
+    overflow:hidden;
+}
+.questionSubForm {
+    width:100%;
+    display: block;
+}
+.questionText {
+    width:100% !important;
+}
+.question select {
+    width:100%!important;
+    margin:1em 0!important;
+}
+.isMandatory {
+    width:100%;
+    display: block;
+    height:3em;
+    padding:0.5em 0.5;
+    clear:both;
+}
+.toggleButton {
+    border:0;
+    border-radius: 0;
+    padding:0.5em 2em;
+    height:3em;
+    line-height: 2em;
+    width:auto;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.leftToggle {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-left:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.rightToggle {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top:1px solid #bebebe;
+    border-right:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+}
+.smallLabel {
+    width:100% !important;
+    display: block;
+}
+.questionOption {
+    width:100%;
+}
+/**invites form**/
+.inviteChoices {
+    display: block;
+    height:3em;
+    width:100%;
+    overflow: hidden;
+}
+.inviteBySignUp {
+    display: none;
+}
+.inviteByEmail {
+    display: none;
+}
+.participantQuit {
+    height:3em;
+    padding: 0.5em 1.2em;
+    display: block;
+    line-height: 2em;
+    text-align: center;
+}
+/**surveyStatus**/
+.participantTextAnswer {
+    width:100%;
+    display: block;
+    line-height: 1.4em;
+    font-size:0.8em;
+    padding:0.2em 0;
+}
+.participantStatus {
+    width:100%;
+    display: block;
+    line-height: 1.8em;
+    font-size:0.9em;
+    padding:0.2em;
+}
+.participantStatus .fa {
+    font-size:1.4em;
+}
+/**participant dashboard**/
+.row {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    min-height: 2em;
+    line-height: 2em;
+    display: block;
+    font-size:0.8em;
+    padding:0.5em 0 0 0;
+}
+.rowHeader {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    line-height: 1.6em;
+    display: block;
+    font-size:1em;
+    padding:0.2em 0 0 0;
+}
+.rowIcon {
+    width:4% !important;
+    height:auto!important;
+    margin-left:2%;
+    overflow:hidden;
+    display: block;
+    min-height: 1.8em;
+    line-height: 1.8em;
+    font-size:0.8em;
+}
+.rowCell {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 2em;
+    line-height: 2.2em;
+    font-size:1em;
+    padding:0 0 0.5em 0;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-topleft: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.rowCellHeader {
+    height:auto!important;
+    overflow:hidden;
+    display: block;
+    min-height: 1.6em;
+    line-height: 1.6em;
+    font-size:0.8em;
+    padding:0;
+}
+.rowCell .topHalfCell {
+    line-height: 1.4em;
+    font-size:1em;
+    width:100%;
+    display: block;
+}
+.rowCell .bottomHalfCell {
+    line-height: 1.2em;
+    font-size:1em;
+    width:100%;
+    display: block;
+}
+.span1col {
+    width:90%;
+}
+.span2col {
+    width:44%;
+    margin-left:1%;
+}
+.span3col {
+    width:29%;
+    margin-left:1%;
+}
+.span4col {
+    width:21.5%;
+    padding-left:1%;
+}
+.span5col {
+    width:17%;
+    margin-left:1%;
+}
+.span6col {
+    width:14%;
+    padding-left:1%;
+}
+.span4colFull {
+    width:48%;
+    padding-left:1%;
+}
+.span6colFull {
+    width:56%;
+    padding-left:1%;
+}
+.span7col {
+    width:11.5%;
+    margin-left:1%;
+}
+/**participant detail**/
+.dataPanel {
+    width:100%;
+    display: block;
+    min-height: 220px;
+    height:auto!important;
+    overflow: hidden;
+    padding:2em 5%;
+}
+.repeatLabel {
+    display:none;
+    clear:both;
+    width:100%;
+    height:auto!important;
+    overflow: hidden;
+    margin-top:1em;
+}
+.repeatLabel label {
+    margin-left:0!important;
+    margin-top:0.5em;
+}
+/** messages **/
+.msgsReceived {
+    display: block;
+}
+.msgsSent {
+    display: none;
+}
+.pagingCtrls {
+    display: none;
+}
+.leftPgr {
+    margin-left: 0 !important;
+}
+.message {
+    width:100%;
+    height:auto!important;
+    overflow:hidden;
+    line-height: 2em;
+    display: block;
+    font-size:1em;
+    padding:0.2em 1em;
+}
+.messageRead {
+    width:20px;
+    margin: 0.6em 0;
+    height:20px;
+    font-size:1.2em;
+    display: block;
+    text-align: center;
+}
+.messageType {
+    width:40px;
+    margin: 0.6em 0;
+    background-position: top center !important;
+    background-size:40px 40px !important;
+    height:40px;
+    display: none;
+}
+.messageLeft {
+    width:20px;
+    height:20px;
+    display: block;
+    float:left;
+}
+.messageContent {
+    width:auto!important;
+    min-width:100px;
+    max-width: 480px;
+    display: block;
+    height:auto;
+    min-height: 3em;
+    margin:0.5em;
+    overflow: hidden;
+}
+.messageSender {
+    font-size:0.8em!important;
+    margin:0 0 0.4em 0;
+    width:100%;
+    line-height: 1.2em;
+    height:auto!important;
+    overflow: hidden;
+}
+.messageTimeStamp {
+    font-size:0.8em!important;
+    margin:0 0 0.4em 0;
+    width:100%;
+    line-height: 1.2em;
+    height:auto!important;
+    overflow: hidden;
+}
+.messageBody {
+    font-size:0.8em!important;
+    width:100%;
+    line-height: 1.2em;
+    height:auto!important;
+    overflow: hidden;
+}
+.messageAction {
+    width:20px;
+    margin: 0.6em 0;
+    min-height: 3em;
+    font-size:1.2em;
+    display: block;
+}
+.messageAction a{
+    width:20px;
+    min-height: 3em;
+    font-size:1.2em;
+    display: block;
+}
+/** survey Progress bar**/
+.formSpacer .barBlock {
+    width:100%;
+    position: relative;
+    height:auto!important;
+    overflow: hidden;
+    z-index: 1;
+}
+.formSpacer .barBlock .value {
+    font-size:1em;
+    height:2em;
+    width:4em;
+    line-height: 2em;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.formSpacer .barBlock .barOuter {
+    width: 100%;
+    height:2em;
+    display: block;
+    position: relative;
+}
+.formSpacer .barBlock .barInner {
+    width: 0%;
+    height:2em;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.goalBlock {
+    width:100%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+    padding:1em;
+}
+.goalBlockMetric {
+    width:80%;
+    height:250px;
+    display: block;
+    overflow:hidden;
+    margin:0 auto;
+}
+.goalBlockScroll {
+    height:2em;
+    width:80%;
+    line-height: 2em;
+    font-size:1.4em;
+    display: block;
+    margin:0 auto;
+    border-bottom:1px solid #efefef;
+}
+.goalBlockScroll .fa {
+    height: 100%;
+    width:auto!important;
+    display: block;
+    font-size:1.4em;
+}
+.goalBlockData {
+    width:100%;
+    height:auto!important;
+    display: block;
+    overflow: hidden;
+    padding:1em;
+}
+/*survey detail view*/
+.surveyDetailCont {
+    width:100%;
+    clear:both;
+    height:auto!important;
+    overflow: hidden;
+}
+.surveyScroll {
+    font-size:1.2em;
+    width:100%;
+    min-height: 1.4em;
+    height:auto!important;
+    overflow: hidden;
+    line-height: 1.4em!important;
+    display: block;
+}
+.surveyScrollLeft {
+    width:10%;
+    height:auto!important;
+    font-size:1.2em;
+    line-height: 1.4em!important;
+    height: 1.4em;
+    display: block;
+}
+.surveyScrollRight {
+    width:10%;
+    font-size:1.2em;
+    height:auto!important;
+    line-height: 1.4em!important;
+    height: 1.4em;
+    display: block;
+}
+.surveyScrollTitle {
+    width:80%;
+    height:auto!important;
+    display: block;
+    font-size:1em;
+}
+.surveyDetail {
+    width:100%;
+    display: block;
+    height:auto!important;
+    overflow: hidden;
+}
+.surveyDetail .surveyQuestion {
+    width:100%;
+    font-size:1em;
+}
+.surveyDetail .surveyCount {
+    display: none;
+}
+.goalSet {
+    display: none;
+}
+/**text messaging*/
+.charCounter {
+    line-height: 0.8em;
+    text-align: right;
+    display: block;
+}
+.txtMsgDialog {
+    display:none;
+}
+.orgUserTab {
+    padding-bottom:0!important;
+    display:none;
+}
+/**participant navigation**/
+.insidePanel {
+    width:100%!important;
+    padding:0 2em!important;
+    display: block;
+    height:auto!important;
+    overflow: hidden;
+}
+.insidePanel h4 {
+    line-height: 2em!important;
+}
+.participantLeftScroll {
+    display: block;
+    line-height: 2em!important;
+}
+.participantRightScroll {
+    display: block;
+    line-height: 2em!important;
+}
+.detailLeftScroll {
+    display: block;
+    line-height: 2em!important;
+}
+.detailRightScroll {
+    display: block;
+    line-height: 2em!important;
+}
+.smallHide {
+    display: none;
+}
