@@ -10,7 +10,7 @@ define([
     Template
 ){
     var TemplateView = Backbone.View.extend({
-        template:_.template('',{}),
+        template:_.template(Template),
         initialize: function(options) {
             this.model = options.model;
         },
