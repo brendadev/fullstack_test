@@ -6,7 +6,7 @@ define([
 ], function(_, Backbone){
     var accountSettingsModel = Backbone.Model.extend({
         urlRoot:function(){
-            var base = '/insurance';
+            var base = '/data/insurance';
             return base;
         },
         initialize: function() {

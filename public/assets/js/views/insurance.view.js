@@ -1,5 +1,3 @@
-//public/assets/js/views/insurance.view.js
-//accessed via the /public/assets/js/views/app.view.js file
 define([
     'jquery',
     'underscore',
@@ -11,8 +9,7 @@ define([
 ){
     var TemplateView = Backbone.View.extend({
         template:_.template(Template),
-        initialize: function(options) {
-            this.model = options.model;
+        initialize: function() {
         },
         render: function() {
             $(this.el).html(this.template());

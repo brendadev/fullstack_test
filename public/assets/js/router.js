@@ -14,7 +14,7 @@ define([
             '*actions': 'defaultAction'
         }
     });
-    var AppView = new AppView();
+    var appView = new AppView();
     appView.render();
 
     var initialize = function(){
