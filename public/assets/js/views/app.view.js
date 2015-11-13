@@ -14,14 +14,15 @@ define([
         initialize: function () {
             this.insurance = new InsuranceModel();
             this.insurance.bind('sync',this.procData,this);
-            this.insurance.fetch();
+            this.insurance.fetch({cache:false});
         },
         render: function () {
+            var insuranceView = new InsuranceView();
+            this.$('main').append(insuranceView.render().el);
             return this;
         },
         procData:function(){
-            var insuranceView = new InsuranceView();
-            this.$('main').append(insuranceView.render().el);
+            debugger;
         }
     });
     return AppView;

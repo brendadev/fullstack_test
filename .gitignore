@@ -1,3 +1,5 @@
 .idea
 fullstack_test.iml
+*.ipr
+*.iws
 node_modules
