@@ -13,6 +13,7 @@ define([
     var AppView = Backbone.View.extend({
         el: $('#myApp'),
         initialize: function () {
+            //instantiating collection, so all views have access to this
             this.insuranceData = new InsuranceDataCollection();
             this.insuranceData.bind('sync',this.procData,this);
             this.insuranceData.fetch({cache:false});
@@ -24,10 +25,10 @@ define([
                 model.set({'percentUninsured': (model.attributes.number_uninsured/model.attributes.population)*100});
                 model.set({'percentInsured': (model.attributes.number_insured/model.attributes.population)*100});
             },this);
-            //call views
-            var lineGraphView = new InsuranceGraphView();
+            //call views and pass collection of insurance data
+            var lineGraphView = new InsuranceGraphView({collection: this.insuranceData});
             this.$('.main').append(lineGraphView.render().el);
-            var columnGraphView = new InsuranceGraphView();
+            var columnGraphView = new InsuranceGraphView({collection: this.insuranceData});
             this.$('.main').append(columnGraphView.render().el);
         },
         render: function () {
