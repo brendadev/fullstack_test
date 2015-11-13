@@ -1,5 +1,5 @@
 //public/client.js
-//accessed via the /public/main.js file
+//referenced by /public/main.js file
 define([
     'jquery',
     'underscore',

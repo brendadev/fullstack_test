@@ -1,4 +1,5 @@
 //server_routes/insurance.js
+//will access /server_routes jade template, which connect to front-end, e.g. main.js
 module.exports = function(app){
     // called from server.js
     var read = require('read-file');

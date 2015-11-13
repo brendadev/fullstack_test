@@ -1,10 +1,9 @@
 //public/router.ja
-//needed by /public/client.js
+//referenced by /public/client.js
 define([
     'jquery',
     'underscore',
     'backbone',
-    //'models/session.model',
     'views/app.view'
 ], function(
     $, _, Backbone,AppView

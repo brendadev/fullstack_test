@@ -10,6 +10,7 @@ define([
     var TemplateView = Backbone.View.extend({
         template:_.template(Template),
         initialize: function() {
+
         },
         render: function() {
             $(this.el).html(this.template());
