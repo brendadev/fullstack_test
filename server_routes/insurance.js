@@ -10,11 +10,15 @@ module.exports = function(app){
 
     app.get('/data/insurance',function(req,res){
         //read('/assets/data/data.json', 'utf8', function(err, buffer) {
-        read('data.json', 'utf8', function(err, buffer) {
+        var f = __dirname +'/data/data.json';
+        read(f, 'utf8', function(err, buffer) {
             if (err) {
                 console.log(err);
+                res.send({status:500,message:"failed to load file"});
             } else {
                 console.log("got data");
+                var out = JSON.parse(buffer);
+                res.send({status:200,message:"success",data:out});
             }
         });
     });
