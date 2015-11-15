@@ -15,7 +15,7 @@ define([
         },
         render: function() {
             $(this.el).html(this.template());
-            this.processData(this.insuranceDataCollection);
+            this.processData();
             return this;
         },
         processData: function(){
