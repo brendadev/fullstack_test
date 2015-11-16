@@ -1083,3 +1083,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .ic-panel-weight { background-position: -110px -540px; width: 70px; height: 70px; }
 
 }*/
+.highcharts-container {
+    background-color:rgba(0,0,0,0);
+}

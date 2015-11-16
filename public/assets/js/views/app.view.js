@@ -6,9 +6,12 @@ define([
     'backbone',
     'collections/insurance.data.collection',
     'models/insurance.data.model',
-    'views/insurance.line.graph.view'
+    'views/insurance.line.graph.view',
+    'views/insurance.bar.graph.view',
+    'views/insurance.graph.view'
 ], function(
-        $,_,Backbone,InsuranceDataCollection,InsuranceDataModel,InsuranceLineGraphView
+        $,_,Backbone,InsuranceDataCollection,InsuranceDataModel,
+        InsuranceLineGraphView,InsuranceBarGraphView,InsuranceGraphView
     ){
     var AppView = Backbone.View.extend({
         el: $('#myApp'),
@@ -26,10 +29,14 @@ define([
                 model.set({'percentInsured': (model.attributes.number_insured/model.attributes.population)*100});
             },this);
             //call views and pass collection of insurance data
-            var lineGraphView = new InsuranceLineGraphView({collection: this.insuranceData});
-            this.$('.main').append(lineGraphView.render().el);
-            var columnGraphView = new InsuranceLineGraphView({collection: this.insuranceData});
-            this.$('.main').append(columnGraphView.render().el);
+            //var graphView = new InsuranceLineGraphView({collection: this.insuranceData});
+            //this.$('.main').append(graphView.render().el);
+            //graphView = new InsuranceBarGraphView({collection: this.insuranceData});
+            //this.$('.main').append(graphView.render().el);
+            var newGraphView = new InsuranceGraphView({collection: this.insuranceData,graphTypeOption: "line"});
+            this.$('.main').append(newGraphView.render().el);
+            newGraphView = new InsuranceGraphView({collection: this.insuranceData,graphTypeOption: "bar"});
+            this.$('.main').append(newGraphView.render().el);
         },
         render: function () {
             //var insuranceView = new InsuranceView();

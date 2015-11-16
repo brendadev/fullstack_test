@@ -13,6 +13,7 @@ define([
             this.insuranceCollectionData = options.collection;
         },
         render: function() {
+            //$(this.el).html(this.template());
             this.processData();
             return this;
         },
@@ -56,56 +57,85 @@ define([
             // HIGHCHARTS MAP
             //use . instead of #, why?
             //$('#container').highcharts({
+            //STACKED PLOT
+            /*
+             chart: {
+             height: this.chartHeight,
+             width:this.chartWidth,
+             marginTop: 10,
+             marginLeft: 80,
+             marginRight: 0,
+             reflow: false,
+             backgroundColor:'rgba(255, 255, 255, 0.1)',
+             style: {
+             fontFamily: 'Open Sans'
+             }
+             },
+             */
             $(this.el).highcharts({
                 chart: {
+                    type: 'column',
+                    height: 700,
+                    //backgroundColor:'rgba(0, 0, 0, 0)',
                     width:1000
                 },
+                credits: {
+                    enabled: false
+                },
                 title: {
-                    text: 'Private Health Insurance Levels By State',
-                    x: -20 //center
+                    text: 'Private Health Insurance Levels By State'
                 },
                 xAxis: {
-                    // categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-                    //categories: xlabels,
                     categories: this.dataPoints.map(function(obj) { return obj.xlabel; }),
-                    //type: 'category',
-                    //crop: false,
-                    //overflow: 'none',
-                    //tickInterval: 1,
-
-                    // to rotate xlabels
                     labels: {
                         rotation: 320
                     }
                 },
                 yAxis: {
+                    min: 0,
                     title: {
                         text: 'Population (Millions)'
                     },
-                    plotLines: [{
-                        value: 0,
-                        width: 1,
-                        color: '#808080'
-                    }]
+                    stackLabels: {
+                        style: {
+                            fontWeight: 'bold',
+                            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                        }
+                    }
                 },
                 legend: {
-                    layout: 'vertical',
                     align: 'right',
-                    verticalAlign: 'middle',
-                    borderWidth: 0
+                    x: -30,
+                    verticalAlign: 'top',
+                    y: 25,
+                    floating: true,
+                    backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
+                    borderColor: '#CCC',
+                    borderWidth: 1,
+                    shadow: false
+                },
+                tooltip: {
+                    headerFormat: '<b>{point.x}</b><br/>',
+                    pointFormat: '{series.name}: {point.y}<br/>Total: {point.stackTotal}'
+                },
+                plotOptions: {
+                    column: {
+                        stacking: 'normal',
+                        dataLabels: {
+                            enabled: false,
+                            color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+                            style: {
+                                textShadow: '0 0 3px black'
+                            }
+                        }
+                    }
                 },
                 series: [{
-                    name: 'Population',
-                    data: this.dataPoints.map(function(obj) { return obj.statePop; }),
-                    type: 'spline'
-                }, {
                     name: 'Insured',
-                    data: this.dataPoints.map(function(obj) { return obj.stateIns; }),
-                    type: 'spline'
+                    data: this.dataPoints.map(function(obj) { return obj.stateIns; })
                 }, {
                     name: 'Uninsured',
-                    data: this.dataPoints.map(function(obj) { return obj.stateUnins; }),
-                    type: 'spline'
+                    data: this.dataPoints.map(function(obj) { return obj.stateUnins; })
                 }]
             });
             //debugger;
