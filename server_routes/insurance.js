@@ -1,5 +1,5 @@
 //server_routes/insurance.js
-//will access /server_routes jade template, which connect to front-end, e.g. main.js
+//will access /server_routes jade template, which connects to front-end, e.g. main.js
 module.exports = function(app){
     // called from server.js
     var read = require('read-file');
@@ -18,7 +18,9 @@ module.exports = function(app){
             } else {
                 console.log("got data");
                 var out = JSON.parse(buffer);
-                res.send({status:200,message:"success",data:out});
+                //data.out contains the top level data, which contains array of data elements
+                //need to do data:out.data to access the array within the parent data
+                res.send({status:200,message:"success",data:out.data});
             }
         });
     });

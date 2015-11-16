@@ -6,9 +6,9 @@ define([
     'backbone',
     'collections/insurance.data.collection',
     'models/insurance.data.model',
-    'views/insurance.graph.view'
+    'views/insurance.line.graph.view'
 ], function(
-        $,_,Backbone,InsuranceDataCollection,InsuranceDataModel,InsuranceGraphView
+        $,_,Backbone,InsuranceDataCollection,InsuranceDataModel,InsuranceLineGraphView
     ){
     var AppView = Backbone.View.extend({
         el: $('#myApp'),
@@ -19,16 +19,16 @@ define([
             this.insuranceData.fetch({cache:false});
         },
         procData:function(){
-            console.log(this);
+            //console.log(this);
             //calculate insurance/uninsured values
             this.insuranceData.each(function(model){
                 model.set({'percentUninsured': (model.attributes.number_uninsured/model.attributes.population)*100});
                 model.set({'percentInsured': (model.attributes.number_insured/model.attributes.population)*100});
             },this);
             //call views and pass collection of insurance data
-            var lineGraphView = new InsuranceGraphView({collection: this.insuranceData});
+            var lineGraphView = new InsuranceLineGraphView({collection: this.insuranceData});
             this.$('.main').append(lineGraphView.render().el);
-            var columnGraphView = new InsuranceGraphView({collection: this.insuranceData});
+            var columnGraphView = new InsuranceLineGraphView({collection: this.insuranceData});
             this.$('.main').append(columnGraphView.render().el);
         },
         render: function () {

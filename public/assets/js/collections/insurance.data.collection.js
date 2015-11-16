@@ -8,7 +8,7 @@ define([
     var DataCollection = Backbone.Collection.extend({
         model:InsuranceDataModel,
         url: function() {
-            //return '/assets/data/data.json';
+            return '/data/insurance';
         },
         initialize: function() {
 
